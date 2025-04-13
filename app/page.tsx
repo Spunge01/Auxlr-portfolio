@@ -9,6 +9,26 @@ import TechSkills from "@/components/tech-skills"
 import DataVisualization from "@/components/data-visualization"
 import UIShowcase from "@/components/ui-showcase"
 
+
+
+
+
 export default function Home() {
-  return <div>Hello, Auxlr!</div>
+  return (
+    <main className="min-h-screen">
+      <Hero />
+      <Services />
+      <TechSkills />
+      <Portfolio />
+      <DataVisualization />
+      <UIShowcase />
+      <About />
+      <Team />
+      <Testimonials />
+      <Contact />
+    </main>
+  )
 }
+
+
+
